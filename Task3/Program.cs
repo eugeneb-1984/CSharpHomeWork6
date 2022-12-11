@@ -25,7 +25,7 @@ void PrintArray (int [] targetArray) {
     Console.WriteLine(result);
 }
 
-//копируем массив поэлеметно
+//копируем массив поэлементно
 int [] CopyArray (int [] targetArray) {
     int [] resultArray = new int [targetArray.Length];
     for (int i = 0; i < resultArray.Length; i++) {
